@@ -97,10 +97,10 @@ module.exports = class Bot {
         console.log(uri, proxy)
     }
 
-    start(channel) {
+    start(channel, botName) {
         this.client.start();
         this.client.setChannel(channel);
-        console.log(channel)
+        this.client.sendArray([{ m: "userset", set: { name: botName } }]);
     }
 
     mouseMove(x, y) {

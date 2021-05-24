@@ -37,8 +37,8 @@ if (Player.isPlaying()) {
 
 Usages:
 ```js
-// Starts the bot in a specific channel
-bot.start('channel name');
+// Starts the bot in a specific channel and sets the client's name
+bot.start('channel name', 'bot name');
 
 // Sets the bot's channel
 bot.setChannel('channel name');

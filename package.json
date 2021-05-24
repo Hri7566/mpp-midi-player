@@ -1,0 +1,26 @@
+{
+    "name": "mpp-midi-player",
+    "version": "1.0.1",
+    "description": "A simple to use MIDI player for Multiplayer Piano",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PhoenixTheCoder/mpp-midi-player.git"
+    },
+    "keywords": [
+        "mpp",
+        "midi",
+        "midiplayer",
+        "multiplayerpiano",
+        "bot"
+    ],
+    "author": "Phoenix",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/PhoenixTheCoder/mpp-midi-player/issues"
+    },
+    "homepage": "https://github.com/PhoenixTheCoder/mpp-midi-player#readme"
+}
