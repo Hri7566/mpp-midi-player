@@ -4,7 +4,8 @@
     "description": "A simple to use MIDI player for Multiplayer Piano",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node bot"
     },
     "repository": {
         "type": "git",
@@ -22,5 +23,10 @@
     "bugs": {
         "url": "https://github.com/PhoenixTheCoder/mpp-midi-player/issues"
     },
-    "homepage": "https://github.com/PhoenixTheCoder/mpp-midi-player#readme"
+    "homepage": "https://github.com/PhoenixTheCoder/mpp-midi-player#readme",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "midi-player-js": "github:LapisHusky/MidiPlayerJS",
+        "mppclone-client": "^1.0.0"
+    }
 }
